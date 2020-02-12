@@ -1,8 +1,8 @@
 zuul:
   routes:
     service-a:
-      path: /service-a/**
+      path: /aaa/**
       serviceId: hello-service
     service-b:
       path: /service-b/**
-      url: http://localhost:8081
+      serviceId: hello-service
